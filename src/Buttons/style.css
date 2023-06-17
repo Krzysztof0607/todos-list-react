@@ -1,0 +1,28 @@
+.section__subcontainer {
+    margin: 0 20px;
+}
+
+@media (max-width: 767px) {
+    .section__subcontainer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.section__buttons {
+    border: none;
+    color: teal;
+    background: transparent;
+    padding: 10px;
+    transition: 1s;
+}
+
+.section__buttons:hover {
+    color: rgb(5, 182, 182);
+    cursor: pointer;
+}
+
+.section__buttons:disabled {
+    color: rgb(204, 191, 191);
+    cursor: default;
+}
